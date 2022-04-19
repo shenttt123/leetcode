@@ -5,9 +5,9 @@ class Solution:
         for stringindex in range(1, len(strs)):
             for charindex in range(shortest):
                 if strs[0][charindex] != strs[stringindex][charindex]:
-                    shortest=charindex
+                    shortestindex=charindex
                     break
-        return strs[0][:shortest]
+        return strs[0][:shortestindex]
 
         
         
